@@ -23,14 +23,14 @@ int main(){
 	}
 	for(i=0; i<1; i++){
 	
-	operations1[i] = (onematriz[0][0] * secondmatriz[0][0]) + (onematriz[0][1] * secondmatriz[1][0]);
-	operations2[i] = (onematriz[0][0] * secondmatriz[0][1]) + (onematriz[0][1] * secondmatriz[1][1]);
-	operations3[i] = (onematriz[1][0] * secondmatriz[0][0]) + (onematriz[1][1] * secondmatriz[1][0]);
-	operations4[i] = (onematriz[1][0] * secondmatriz[0][1]) + (onematriz[1][1] * secondmatriz[1][1]);
-	matriztotal[0][0] = operations1[i];
-	matriztotal[1][0] = operations2[i];
-	matriztotal[0][1] = operations3[i];
-	matriztotal[1][1] = operations4[i];
+		operations1[i] = (onematriz[0][0] * secondmatriz[0][0]) + (onematriz[0][1] * secondmatriz[1][0]);
+		operations2[i] = (onematriz[0][0] * secondmatriz[0][1]) + (onematriz[0][1] * secondmatriz[1][1]);
+		operations3[i] = (onematriz[1][0] * secondmatriz[0][0]) + (onematriz[1][1] * secondmatriz[1][0]);
+		operations4[i] = (onematriz[1][0] * secondmatriz[0][1]) + (onematriz[1][1] * secondmatriz[1][1]);
+		matriztotal[0][0] = operations1[i];
+		matriztotal[1][0] = operations2[i];
+		matriztotal[0][1] = operations3[i];
+		matriztotal[1][1] = operations4[i];
 	
 	}
 	cout << endl << "Multiplicacion matriz 2x2: " << endl;

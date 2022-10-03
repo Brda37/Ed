@@ -13,17 +13,19 @@ int main(){
 			}
 	}
 	cout << endl <<"Matriz ordenada:" << endl;
-	for(i=0; i<2; i++){
-		for(j=0; j <2; j++){
-			cout <<"Datos fila: "<< i+1 <<" columna: "<< j+1 << ": " <<matriz[i][j] << endl;
+	for(i=0; i<1; i++){
+		for(j=0; j <1; j++){
+			cout << matriz[0][0] << matriz[0][1] << endl;
+			cout << matriz[1][0] << matriz[1][1] << endl;
 			}
 	}
 	
 	cout << endl << "Matriz transpuesta: "<< endl;
 	
-	for(i=0; i<2; i++){
-		for(j=0; j <2; j++){
-			cout <<"Datos fila: "<< i+1 <<" columna: "<< j+1 << ": " <<otramatriz[i][j] << endl;
+	for(i=0; i<1; i++){
+		for(j=0; j <1; j++){
+			cout << otramatriz[0][0] << otramatriz[0][1] << endl;
+			cout << otramatriz[1][0] << otramatriz[1][1] << endl;
 			}
 	}
 }
